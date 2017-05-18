@@ -8,6 +8,8 @@ label{ cursor:pointer; display:inline-block; transition:1s ease; }
 article{ width:40%; margin:0 auto; color:#444; }
 footer{ background:#a6babd; color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 14px; }
+
+footer p{color:white;}       
  /*---*/
    /*	
 	Side Navigation Menu
@@ -87,6 +89,10 @@ body { background: #f1f1f1; }
 
 /* Navigation */
 
+.menu-bar-icon {
+  margin-left:10px;
+}
+
 nav {
   position: fixed;
   left: 0;
@@ -102,6 +108,10 @@ nav {
   transition-duration: 0.4s;
   transition-property: all;
   transition-timing-function: line;
+
+  text-align: left;
+
+  z-index:50;
 }
 
 nav:hover {
@@ -110,7 +120,7 @@ nav:hover {
   top: 0;
   bottom: 0;
   height: auto;
-  width: 140px;
+  width: 340px;
   background-color: #a6babd;
 }
 

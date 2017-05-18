@@ -39,6 +39,7 @@ footer{
 	width:100%;
 	float:left;
 	padding-top:0px;
+	height: 550px;
 }
 
 #form-div {
@@ -155,3 +156,66 @@ input:focus, textarea:focus {
 }
 
 /* END FORM */
+
+/* FOTO FRAN */
+
+.fotowrapper {
+	margin-left: 80px;
+	margin-top:40px;
+}
+
+.fran-foto {
+	width:350px;
+	height:232px;
+	margin:0px 0px 40px 40px;
+	float:left;
+	overflow:hidden;
+	position:relative;
+
+}
+
+.fran-foto .overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	width:350px;
+	height:232px;
+	background-image: url("../images/Middel 22.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index:1;
+	opacity:0;
+
+	-moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+
+.fran-foto:hover .overlay {
+	opacity:1;
+}
+	
+
+.fran-foto img {
+	width:350px;
+
+	-moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.clear {
+	clear: both;
+}
+
+.fran-foto:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* GOOGLE MAP */
+.gmap {
+	margin-left:80px;
+}
