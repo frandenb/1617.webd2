@@ -1,224 +1,265 @@
-  body{background-color:white; color:hsla (167, 187, 190);text-align:center}
-     h1 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:darkslategrey; }
-     p {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:black;font-size: 12pt}
-    h2 {font-family: 'Arial', 'Helvetica', 'sans-serif'; font-size:50pt;color: #a6babd}
-    hr {color:white}
-    a, 
-    footer {bottom:0;}
-    
-   a, 
-    a:visited {
-        color:#a6babd;
-        text-decoration:none;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size:20pt;
-        text-align: center;
-        }
-   html{ height:100%; }
-body{ min-height:100%; padding:0; margin:0; position:relative; }
+  body {
+  	background-color: white;
+  	color: hsla (167, 187, 190);
+  	text-align: center
+  }
 
-body::after{ content:''; display:block; height:100px; }
+  h1 {
+  	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  	color: darkslategrey;
+  }
 
-footer{ 
-  position:absolute;
-  bottom:0; 
-  width:100%; 
-  height:100px; 
-	
+  p {
+  	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  	color: black;
+  	font-size: 12pt
+  }
 
+  h2 {
+  	font-family: 'Arial', 'Helvetica', 'sans-serif';
+  	font-size: 50pt;
+  	color: darkslategrey;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  }
 
-  
-}
+  hr {
+  	color: white
+  }
 
-/* START FORM */
+  a,
+  footer {
+  	bottom: 0;
+  }
 
-*::-webkit-input-placeholder {
-  color: darkslategrey;
-}
-#feedback-page{
-	text-align:center;
-}
+  h3 {
+  	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  	font-size: 12pt;
+  	color: #a6babd;
+  }
 
-#form-main{
-	width:100%;
-	float:left;
-	padding-top:0px;
-	height: 550px;
-}
+  a,
+  a:visited {
+  	color: #a6babd;
+  	text-decoration: none;
+  	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  	font-size: 20pt;
+  	text-align: center;
+  }
 
-#form-div {
-	background: #fff;
-	padding-left:35px;
-	padding-right:35px;
-	padding-top:35px;
-	padding-bottom:35px;
-	width: 450px;
-	float: left;
-	left: 50%;
-	position: absolute;
-  margin-top:30px;
-	margin-left: -260px;
-}
+  html {
+  	height: 100%;
+  }
 
-.feedback-input {
-	color:#000;
-	font-family: Montserrat, Arial, sans-serif;
-  font-weight:300;
-	font-size: 14px;
-	border-radius: 0;
-	line-height: 22px;
-	background-color: #fff;
-	padding: 13px 13px 13px 13px;
-	margin-bottom: 10px;
-	width:100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-  border: 0px solid transparent;
-  border-bottom: 1px solid #000;
-}
+  body {
+  	min-height: 100%;
+  	padding: 0;
+  	margin: 0;
+  	position: relative;
+  }
 
-.feedback-input:focus{
-	background: #fff;
-	box-shadow: 0;
-	color: #000;
-	outline: none;
-  padding: 13px 13px 13px 13px;
-}
+  body::after {
+  	content: '';
+  	display: block;
+  	height: 100px;
+  }
 
-.focused{
-	color:#000;
-	border:#30aed6 solid 2px;
-}
+  footer {
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 100px;
+  }
+  /* START FORM */
 
-textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
-}
+  *::-webkit-input-placeholder {
+  	color: darkslategrey;
+  }
 
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-	background-color:#a6babd;
-}
+  #feedback-page {
+  	text-align: center;
+  }
 
-#button-blue{
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-	float:left;
-	width: 100%;
-	border: 0px solid transparent;
-	cursor:pointer;
-	background-color: #000;
-	color:white;
-	font-size:18px;
-	padding-top:22px;
-	padding-bottom:22px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:300;
-}
+  #form-main {
+  	width: 100%;
+  	float: left;
+  	padding-top: 0px;
+  	height: 550px;
+  }
 
-#button-blue:hover{
-	background-color:#a6babd;
-	color: white;
-  
-}
-	
-.submit:hover {
-	color: #3498db;
-}
-	
-.ease {
-	width: 0px;
-	height: 74px;
-	background-color: #fbfbfb;
-	-webkit-transition: .3s ease;
-	-moz-transition: .3s ease;
-	-o-transition: .3s ease;
-	-ms-transition: .3s ease;
-	transition: .3s ease;
-}
+  #form-div {
+  	background: #fff;
+  	padding-left: 35px;
+  	padding-right: 35px;
+  	padding-top: 35px;
+  	padding-bottom: 35px;
+  	width: 450px;
+  	float: left;
+  	left: 50%;
+  	position: absolute;
+  	margin-top: 30px;
+  	margin-left: -260px;
+  }
 
-.submit:hover .ease{
-  width:100%;
-  background-color:white;
-}
+  .feedback-input {
+  	color: #000;
+  	font-family: Montserrat, Arial, sans-serif;
+  	font-weight: 300;
+  	font-size: 14px;
+  	border-radius: 0;
+  	line-height: 22px;
+  	background-color: #fff;
+  	padding: 13px 13px 13px 13px;
+  	margin-bottom: 10px;
+  	width: 100%;
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-ms-box-sizing: border-box;
+  	box-sizing: border-box;
+  	border: 0px solid transparent;
+  	border-bottom: 1px solid #000;
+  }
 
-@media only screen and (max-width: 580px) {
-	#form-div{
-		left: 3%;
-		margin-right: 3%;
-		width: 88%;
-		margin-left: 0;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
-}
+  .feedback-input:focus {
+  	background: #fff;
+  	box-shadow: 0;
+  	color: #000;
+  	outline: none;
+  	padding: 13px 13px 13px 13px;
+  }
 
-/* END FORM */
+  .focused {
+  	color: #000;
+  	border: #30aed6 solid 2px;
+  }
 
-/* FOTO FRAN */
+  textarea {
+  	width: 100%;
+  	height: 150px;
+  	line-height: 150%;
+  	resize: vertical;
+  }
 
-.fotowrapper {
-	margin-left: 80px;
-	margin-top:40px;
-}
+  input:hover,
+  textarea:hover,
+  input:focus,
+  textarea:focus {
+  	background-color: #a6babd;
+  }
 
-.fran-foto {
-	width:350px;
-	height:232px;
-	margin:0px 0px 40px 40px;
-	float:left;
-	overflow:hidden;
-	position:relative;
+  #button-blue {
+  	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  	float: left;
+  	width: 100%;
+  	border: 0px solid transparent;
+  	cursor: pointer;
+  	background-color: #000;
+  	color: white;
+  	font-size: 18px;
+  	padding-top: 22px;
+  	padding-bottom: 22px;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+  	transition: all 0.3s;
+  	margin-top: -4px;
+  	font-weight: 300;
+  }
 
-}
+  #button-blue:hover {
+  	background-color: #a6babd;
+  	color: white;
+  }
 
-.fran-foto .overlay {
-	position:absolute;
-	top:0;
-	left:0;
-	width:350px;
-	height:232px;
-	background-image: url("../images/Middel 22.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	z-index:1;
-	opacity:0;
+  .submit:hover {
+  	color: #3498db;
+  }
 
-	-moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  .ease {
+  	width: 0px;
+  	height: 74px;
+  	background-color: #fbfbfb;
+  	-webkit-transition: .3s ease;
+  	-moz-transition: .3s ease;
+  	-o-transition: .3s ease;
+  	-ms-transition: .3s ease;
+  	transition: .3s ease;
+  }
 
-}
+  .submit:hover .ease {
+  	width: 100%;
+  	background-color: white;
+  }
 
-.fran-foto:hover .overlay {
-	opacity:1;
-}
-	
+  @media only screen and (max-width: 580px) {
+  	#form-div {
+  		left: 3%;
+  		margin-right: 3%;
+  		width: 88%;
+  		margin-left: 0;
+  		padding-left: 3%;
+  		padding-right: 3%;
+  	}
+  }
+  /* END FORM */
+  /* FOTO FRAN */
 
-.fran-foto img {
-	width:350px;
+  .fotowrapper {
+  	margin-left: 80px;
+  	margin-top: 40px;
+  }
 
-	-moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
+  .fran-foto {
+  	width: 350px;
+  	height: 232px;
+  	margin: 0px 0px 40px 40px;
+  	float: left;
+  	overflow: hidden;
+  	position: relative;
+  }
 
-.clear {
-	clear: both;
-}
+  .fran-foto .overlay {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 350px;
+  	height: 232px;
+  	background-image: url("../images/Middel 22.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	z-index: 1;
+  	opacity: 0;
+  	-moz-transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	transition: all 0.3s;
+  }
 
-.fran-foto:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
+  .fran-foto:hover .overlay {
+  	opacity: 1;
+  }
 
-/* GOOGLE MAP */
-.gmap {
-	margin-left:80px;
-}
+  .fran-foto img {
+  	width: 350px;
+  	-moz-transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	transition: all 0.3s;
+  }
+
+  .clear {
+  	clear: both;
+  }
+
+  .fran-foto:hover img {
+  	-moz-transform: scale(1.1);
+  	-webkit-transform: scale(1.1);
+  	transform: scale(1.1);
+  }
+  /* GOOGLE MAP */
+
+  .gmap {
+  	margin-left: 80px;
+  }
+  /*--*/
+
+  .personasheet {
+  	margin-left: 12px;
+  }
