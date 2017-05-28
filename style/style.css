@@ -367,6 +367,14 @@ background: #71868b; }
 .seven {
 background: #000; }
 
+a.start:link, a.start:active,a.start:visited {
+	color:#000;
+	font-size:14px;
+}
+
+a.start:link {
+	color:#333;
+}
 
 
 
